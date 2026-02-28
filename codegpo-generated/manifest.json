@@ -1,22 +1,47 @@
 {
-  "generated_at": "2026-02-28T09:11:55.895710",
+  "generated_at": "2026-02-28T11:08:30.243990",
   "graph": {
-    "nodes": 5,
-    "edges": 4
+    "nodes": 18,
+    "edges": 53
   },
   "schemas": [
     {
-      "node": "API Service",
-      "type": "API",
-      "intent": "Inferred from GitHub repo: iMRHACKER/CODETEST.git",
+      "node": "saas-template-master",
+      "type": "Database",
+      "intent": "",
       "artifacts": [
-        "openapi"
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
       ]
     },
     {
-      "node": "Database",
+      "node": "db",
       "type": "Database",
-      "intent": "Inferred from GitHub repo: iMRHACKER/CODETEST.git",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "postgres_data",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "pg",
+      "type": "Database",
+      "intent": "",
       "artifacts": [
         "sql",
         "orm",
