@@ -1,0 +1,7 @@
+model SaasTemplateMaster {
+  @@map("saas_template_master")
+
+  updated_at           DateTime @default(now())
+  created_at           DateTime @default(now())
+  id                   String   @id @default(uuid())
+}
