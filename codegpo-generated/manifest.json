@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-02-28T09:03:42.171954",
+  "graph": {
+    "nodes": 18,
+    "edges": 53
+  },
+  "schemas": [
+    {
+      "node": "saas-template-master",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "db",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "postgres_data",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "pg",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    }
+  ]
+}
