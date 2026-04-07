@@ -1,22 +1,69 @@
 {
-  "generated_at": "2026-02-28T09:11:55.895710",
+  "generated_at": "2026-04-07T14:46:11.676944",
   "graph": {
-    "nodes": 5,
-    "edges": 4
+    "nodes": 15,
+    "edges": 43
   },
   "schemas": [
     {
-      "node": "API Service",
-      "type": "API",
-      "intent": "Inferred from GitHub repo: iMRHACKER/CODETEST.git",
+      "node": "src",
+      "type": "Database",
+      "intent": "",
       "artifacts": [
-        "openapi"
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
       ]
     },
     {
-      "node": "Database",
+      "node": "DockerService",
       "type": "Database",
-      "intent": "Inferred from GitHub repo: iMRHACKER/CODETEST.git",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "db",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "postgres_data",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "PostgreSQL",
+      "type": "Database",
+      "intent": "",
+      "artifacts": [
+        "sql",
+        "orm",
+        "migration",
+        "prisma"
+      ]
+    },
+    {
+      "node": "shared",
+      "type": "Database",
+      "intent": "",
       "artifacts": [
         "sql",
         "orm",
